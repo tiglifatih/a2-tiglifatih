@@ -221,8 +221,7 @@ html_page += """
 				<li>Average score per player is '""" + str(average_points) + """ points'.</li>
 				<li>The player who scored the most points with '""" + str(max_points) + """' is '""" + str(contents[player_points][1]) + """'.</li>
 				<li>Player Index Rating per player is '""" + str(average_pir) + """'.</li>
-				<li>'""" + str(contents[player_pir][1]) + """' is the most efficient player with '""" + str(max_pir) + """' index rating.</li>
-				
+				<li>'""" + str(contents[player_pir][1]) + """' is the most efficient player with '""" + str(max_pir) + """' index rating.</li>	
 			</ul>
 		</div>
 	</body>
